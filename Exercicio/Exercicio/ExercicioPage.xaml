@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Exercicio.ExercicioPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image  Source="{Binding imagem}"
+                    AbsoluteLayout.LayoutBounds="0.8,1,50,50"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    />
+            <Label Text="{Binding nome}"/>
+            <Label Text="{Binding tipo}"/>
+            <Label Text="{Binding peso}"/>
+            <Label Text="{Binding altura}"/>
+            <Label Text="{Binding sexo}"/>
+            <Label Text="{Binding caracteristica}"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
